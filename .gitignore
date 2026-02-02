@@ -1,2 +1,6 @@
 mariadb_data
 mailhog_data
+php
+sql
+compose.yml
+README.md
