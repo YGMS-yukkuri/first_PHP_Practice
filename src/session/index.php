@@ -14,7 +14,7 @@ if (isset($_POST["reset"])) {
     session_destroy();
     header("Location: " . $_SERVER["PHP_SELF"]);
     exit();
-}
+};
 
 ?>
 <!DOCTYPE html>
