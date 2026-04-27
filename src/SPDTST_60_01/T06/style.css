@@ -1,0 +1,12 @@
+::backdrop {
+    background: linear-gradient(red, blue);
+    opacity: 0.4;
+}
+
+h1 {
+    height: 110vh;
+}
+
+body.lock {
+    overflow: hidden;
+}
