@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+}
+form,
+.post {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  font: inherit;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+button {
+  cursor: pointer;
+}
+.error {
+  color: #c00;
+  margin-bottom: 12px;
+}
+.meta {
+  color: #666;
+  font-size: 14px;
+}
+
