@@ -1,0 +1,29 @@
+.anim {
+    width: 0;
+    height: 0;
+    border-color: transparent transparent #ff0000 transparent;
+    border-width: 0 40px 80px 40px;
+    border-style: solid;
+    animation: asdf 5s ease infinite;
+}
+
+@keyframes asdf {
+    0% {
+        border-color: transparent transparent #ff0000 transparent;
+        border-width: 0 40px 80px 40px;
+        border-style: solid;
+        translate: 0 -10px;
+    }
+    50% {
+        border: 50px solid yellow;
+        border-radius: 50%;
+        transform: rotate(720deg);
+        translate: 0;
+    }
+    100% {
+        border-color: transparent transparent #ff0000 transparent;
+        border-width: 0 40px 80px 40px;
+        border-style: solid;
+        translate: 0 -10px;
+    }
+}
