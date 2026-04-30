@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.anim {
+     margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(0deg, blue, red);
+    animation: a 10s linear infinite;
+    scale: 5.0;
+}
+
+
+@keyframes a {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
