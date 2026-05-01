@@ -1,0 +1,11 @@
+tbody td {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(2n+1) td:nth-of-type(2n+1) {
+    background-color: #aaa;
+}
+
+tbody tr:nth-child(2n) td:nth-of-type(2n) {
+    background-color: #aaa;
+}
